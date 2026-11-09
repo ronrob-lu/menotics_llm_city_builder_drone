@@ -1,0 +1,13 @@
+{
+  "_comment": "Configuration for menotics_llm_city_builder_drone. Copy this file to <your_world_folder>/openrouter.json or <your_world_folder>/ollama.json",
+  "api_url": "http://127.0.0.1:11434/v1/chat/completions",
+  "api_key": "ollama",
+  "model": "qwen2.5-coder:latest",
+  "temperature": 0.7,
+  "timeout": 300,
+  "sleep_between_calls": 5.0,
+  "grid_step": 100,
+  "grid_row_length": 10,
+  "build_duration": 30.0,
+  "max_structures": 0
+}

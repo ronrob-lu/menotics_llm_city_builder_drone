@@ -1,0 +1,14 @@
+{
+  "_comment": "Configuration for menotics_llm_city_builder_drone.",
+  "api_url": "http://192.168.1.11:11434/v1/chat/completions",
+  "api_key": "ollama",
+  "model": "gpt-oss:120b-cloud",
+  "temperature": 0.7,
+  "repeat_penalty": 1.0,
+  "timeout": 300,
+  "sleep_between_calls": 5.0,
+  "grid_step": 100,
+  "grid_row_length": 10,
+  "build_duration": 30.0,
+  "max_structures": 0
+}

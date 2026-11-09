@@ -1,0 +1,176 @@
+{
+  "_comment": "City structure catalogue for llm_city_builder. Add more entries to extend the city.",
+  "structures": [
+    {
+      "id":          "one_story_house",
+      "label":       "One-Story House",
+      "description": "A single-floor residential building with 3-block walls, 1x2 door, windows, and flat roof.",
+      "min_w": 5,  "max_w": 7,
+      "min_d": 5,  "max_d": 7,
+      "min_h": 5,  "max_h": 6,
+      "weight": 4
+    },
+    {
+      "id":          "two_story_house",
+      "label":       "Two-Story House",
+      "description": "A residential building with two hollow 3-block floors, windows, solid intermediate floor at Layer 4, and flat roof.",
+      "min_w": 6,  "max_w": 8,
+      "min_d": 6,  "max_d": 8,
+      "min_h": 9,  "max_h": 11,
+      "weight": 6
+    },
+    {
+      "id":          "shop",
+      "label":       "Shop",
+      "description": "A hollow commercial building with large glass display windows, 1x2 door, completely open interior, and flat roof.",
+      "min_w": 5,  "max_w": 8,
+      "min_d": 5,  "max_d": 7,
+      "min_h": 5,  "max_h": 6,
+      "weight": 3
+    },
+    {
+      "id":          "church",
+      "label":       "Church",
+      "description": "A tall place of worship with a high central nave, arched windows, and steeple.",
+      "min_w": 7,  "max_w": 9,
+      "min_d": 9,  "max_d": 13,
+      "min_h": 7,  "max_h": 12,
+      "weight": 2
+    },
+    {
+      "id":          "park",
+      "label":       "Park",
+      "description": "An open green space with dirt-with-grass ground, dirt paths, and a hollow perimeter fence frame.",
+      "min_w": 7,  "max_w": 11,
+      "min_d": 7,  "max_d": 11,
+      "min_h": 2,  "max_h": 2,
+      "weight": 2
+    },
+    {
+      "id":          "watchtower",
+      "label":       "Watchtower",
+      "description": "A tall observation tower with solid intermediate floor slabs every 4 layers, hollow room interiors, and rooftop battlements.",
+      "min_w": 5,  "max_w": 6,
+      "min_d": 5,  "max_d": 6,
+      "min_h": 10, "max_h": 14,
+      "weight": 4
+    },
+    {
+      "id":          "skyscraper",
+      "label":       "Skyscraper",
+      "description": "A tall modern high-rise tower with stone/brick framework, large glass window facades, solid intermediate floor slabs every 4 layers, hollow multi-floor interiors, and flat rooftop deck.",
+      "min_w": 7,  "max_w": 9,
+      "min_d": 7,  "max_d": 9,
+      "min_h": 13, "max_h": 17,
+      "weight": 2
+    },
+    {
+      "id":          "house_with_garden",
+      "label":       "House with Garden",
+      "description": "A single-story residential home with a flat roof and a hollow walkable grass garden with dirt paths on Layer 0 enclosed by a 1-block-wide perimeter fence frame on Layer 1.",
+      "min_w": 8,  "max_w": 11,
+      "min_d": 8,  "max_d": 11,
+      "min_h": 5,  "max_h": 6,
+      "weight": 4
+    },
+    {
+      "id":          "two_story_house_with_garden",
+      "label":       "Two-Story House with Garden",
+      "description": "A two-story residential home with hollow floors, solid intermediate floor at Layer 4, flat roof, and a hollow walkable grass garden enclosed by a 1-block-wide perimeter fence frame on Layer 1.",
+      "min_w": 8,  "max_w": 11,
+      "min_d": 8,  "max_d": 11,
+      "min_h": 9,  "max_h": 11,
+      "weight": 4
+    },
+    {
+      "id":          "town_hall",
+      "label":       "Town Hall",
+      "description": "A grand civic building with a large central entrance, columned facade, hollow interior rooms, and a central clock tower or dome on the roof.",
+      "min_w": 9,  "max_w": 12,
+      "min_d": 9,  "max_d": 12,
+      "min_h": 8,  "max_h": 12,
+      "weight": 1
+    },
+    {
+      "id":          "school",
+      "label":       "School",
+      "description": "A multi-room educational building with hollow classrooms, large glass windows, a central courtyard or playground path, and a flat roof.",
+      "min_w": 10, "max_w": 13,
+      "min_d": 8,  "max_d": 11,
+      "min_h": 5,  "max_h": 7,
+      "weight": 2
+    },
+    {
+      "id":          "library",
+      "label":       "Library",
+      "description": "A quiet civic building with wood bookshelves along interior walls, open central reading area, large windows, and a flat roof.",
+      "min_w": 8,  "max_w": 11,
+      "min_d": 8,  "max_d": 11,
+      "min_h": 6,  "max_h": 8,
+      "weight": 2
+    },
+    {
+      "id":          "hospital",
+      "label":       "Hospital",
+      "description": "A large medical facility with a red cross emblem on a light stone facade, multiple hollow interior wards, emergency entrance, and a flat roof.",
+      "min_w": 10, "max_w": 13,
+      "min_d": 10, "max_d": 13,
+      "min_h": 9,  "max_h": 12,
+      "weight": 1
+    },
+    {
+      "id":          "fire_station",
+      "label":       "Fire Station",
+      "description": "A functional civic building with large double-height bay doors for fire engines, watchtower shaft, hollow interior, and a flat roof.",
+      "min_w": 8,  "max_w": 11,
+      "min_d": 7,  "max_d": 9,
+      "min_h": 6,  "max_h": 8,
+      "weight": 2
+    },
+    {
+      "id":          "police_station",
+      "label":       "Police Station",
+      "description": "A secure civic building with reinforced stone/brick facade, holding cells, office area, hollow interior, and a flat roof.",
+      "min_w": 8,  "max_w": 11,
+      "min_d": 7,  "max_d": 9,
+      "min_h": 6,  "max_h": 8,
+      "weight": 2
+    },
+    {
+      "id":          "apartment_building",
+      "label":       "Apartment Building",
+      "description": "A residential high-rise with hollow rooms, solid intermediate floors every 4 layers, windows, balconies, and a flat rooftop deck.",
+      "min_w": 7,  "max_w": 9,
+      "min_d": 7,  "max_d": 9,
+      "min_h": 12, "max_h": 16,
+      "weight": 3
+    },
+    {
+      "id":          "factory",
+      "label":       "Factory",
+      "description": "An industrial building with a large open floor plan, hollow high-ceiling interior, smokestack pillars on the roof, and loading dock entrance.",
+      "min_w": 10, "max_w": 13,
+      "min_d": 8,  "max_d": 11,
+      "min_h": 7,  "max_h": 10,
+      "weight": 2
+    },
+    {
+      "id":          "water_tower",
+      "label":       "Water Tower",
+      "description": "An infrastructure tower featuring sturdy open support legs on lower layers supporting an elevated cylindrical water tank with a flat top.",
+      "min_w": 5,  "max_w": 7,
+      "min_d": 5,  "max_d": 7,
+      "min_h": 10, "max_h": 14,
+      "weight": 2
+    },
+    {
+      "id":          "restaurant",
+      "label":       "Restaurant",
+      "description": "A commercial dining building with large display windows, hollow dining room, outdoor patio seating area, and a flat roof.",
+      "min_w": 6,  "max_w": 9,
+      "min_d": 6,  "max_d": 9,
+      "min_h": 5,  "max_h": 7,
+      "weight": 3
+    }
+  ]
+}
